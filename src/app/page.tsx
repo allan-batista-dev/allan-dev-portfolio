@@ -121,7 +121,7 @@ export default function Home() {
           </div>
         </section>
         <section className="my-10">
-          <Card className="p-10">
+          <Card className="sm:p-5 md:p-10">
             <div className="flex justify-center mb-5">
               <Image
                 src={my}
@@ -134,8 +134,8 @@ export default function Home() {
             <h1 className="text-center mb-10 text-3xl font-extrabold">
               Hello! My name is Allan
             </h1>
-            <Card className="p-5">
-              <p>
+            <Card >
+              <p className="p-5">
                 I am a highly skilled Full-stack Developer with four years of extensive experience in crafting cutting-edge web applications. My passion for web development is matched only by my enthusiasm for making a meaningful impact through technology. I possess a robust skill set that encompasses both front-end and back-end development, allowing me to create seamless, user-friendly web experiences.
                 Throughout my career, I have had the privilege of working on a diverse range of projects, from e-commerce platforms to content management systems and everything in between. My commitment to staying up-to-date with the latest industry trends and technologies ensures that I can deliver solutions that are not only functional but also innovative.
 
