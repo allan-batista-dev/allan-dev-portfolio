@@ -136,13 +136,11 @@ export default function Home() {
             </h1>
             <Card className="p-5">
               <p>
-                {`
-                  I am a highly skilled Full-stack Developer with four years of extensive experience in crafting cutting-edge web applications. My passion for web development is matched only by my enthusiasm for making a meaningful impact through technology. I possess a robust skill set that encompasses both front-end and back-end development, allowing me to create seamless, user-friendly web experiences.
-                  Throughout my career, I have had the privilege of working on a diverse range of projects, from e-commerce platforms to content management systems and everything in between. My commitment to staying up-to-date with the latest industry trends and technologies ensures that I can deliver solutions that are not only functional but also innovative.
+                I am a highly skilled Full-stack Developer with four years of extensive experience in crafting cutting-edge web applications. My passion for web development is matched only by my enthusiasm for making a meaningful impact through technology. I possess a robust skill set that encompasses both front-end and back-end development, allowing me to create seamless, user-friendly web experiences.
+                Throughout my career, I have had the privilege of working on a diverse range of projects, from e-commerce platforms to content management systems and everything in between. My commitment to staying up-to-date with the latest industry trends and technologies ensures that I can deliver solutions that are not only functional but also innovative.
 
-                  I thrive in collaborative environments and take pride in my ability to communicate effectively with cross-functional teams, turning ideas into reality. My dedication to clean code practices, performance optimization, and a user-centered approach is evident in the quality of my work.
-                  I am driven by a strong desire to contribute to the ever-evolving world of web development, and I am eager to take on new challenges and create exceptional digital experiences. Let's work together to bring your web projects to life and make a lasting impact in the digital realm.
-                `}
+                I thrive in collaborative environments and take pride in my ability to communicate effectively with cross-functional teams, turning ideas into reality. My dedication to clean code practices, performance optimization, and a user-centered approach is evident in the quality of my work.
+                I am driven by a strong desire to contribute to the ever-evolving world of web development, and I am eager to take on new challenges and create exceptional digital experiences. Let's work together to bring your web projects to life and make a lasting impact in the digital realm.
               </p>
             </Card>
           </Card>
