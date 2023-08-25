@@ -116,19 +116,19 @@ export default function Home() {
     <>
       <main>
         <section>
-          <div className="flex items-center justify-end">
+          <div className="flex items-center justify-end pt-5 pr-3">
             <ButtonTheme />
           </div>
         </section>
         <section className="my-10">
           <Card className="sm:p-5 md:p-10">
-            <div className="flex justify-center mb-5">
+            <div className="flex justify-center mb-5 mt-5">
               <Image
                 src={my}
                 alt="allan"
                 width={300}
                 height={300}
-                className="rounded-full opacity-50"
+                className="rounded-full opacity-50 xl:mt-5"
               />
             </div>
             <h1 className="text-center mb-10 text-3xl font-extrabold">

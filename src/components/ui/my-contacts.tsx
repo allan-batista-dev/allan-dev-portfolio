@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Button } from "./button";
 import { Mail, Linkedin, Github, MessageCircle, Send, Laugh, HeartHandshake } from "lucide-react";
 import { Label } from "@/components/ui/label"
@@ -10,9 +10,13 @@ export default function MyContacts() {
     let [message, setMessage] = useState('');
     const myContact = '44999692039'
     const [showTextArea, setShowTextArea] = useState(false);
+    const textareaRef = useRef<HTMLTextAreaElement | null>(null);
 
     const showTextMsg = () => {
         setShowTextArea(true);
+        if (textareaRef.current) {
+            textareaRef.current.scrollIntoView({ behavior: "smooth" });
+        }
     };
 
     const iLovePortfolio = () => {
@@ -98,6 +102,7 @@ export default function MyContacts() {
                         <Textarea
                             placeholder="Write your message"
                             value={message}
+                            ref={textareaRef}
                         />
                         <div className="flex items-center justify-between mt-3">
                             <div>
