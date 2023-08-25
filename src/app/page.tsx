@@ -151,15 +151,20 @@ export default function Home() {
         </section>
         <section className="card my-10">
           <Card className="p-10">
+            <h2 className="text-center mb-10 text-3xl font-extrabold">
+              Experience<br /> to create scalable applications.
+            </h2>
             <Card className="mx-5">
-              <div className="flex justify-center items-center ">
-                <Image
-                  src={brain}
-                  alt="brain"
-                  width={500}
-                  height={500}
-                />
-              </div>
+              <Skeleton>
+                <div className="flex justify-center items-center ">
+                  <Image
+                    src={brain}
+                    alt="brain"
+                    width={600}
+                    height={600}
+                  />
+                </div>
+              </Skeleton>
             </Card>
             <div className="grid md:grid-cols-3 sm:grid-cols-1 md:gap-10 px-5">
               <div className="flex flex-col">
