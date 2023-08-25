@@ -84,7 +84,6 @@ const devops = [
   {
     name: 'Swagger'
   }
-
 ];
 
 const back = [
@@ -131,7 +130,6 @@ export default function Home() {
                 height={300}
                 className="rounded-full opacity-50"
               />
-
             </div>
             <h1 className="text-center mb-10 text-3xl font-extrabold">
               Hello! My name is Allan
@@ -238,7 +236,6 @@ export default function Home() {
               </div>
             </div>
           </Card>
-
         </section>
       </main>
     </>
