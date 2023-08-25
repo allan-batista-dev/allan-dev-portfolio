@@ -25,6 +25,7 @@ import Image from "next/image"
 
 import nestjs from '../../public/icons/nestjs.svg'
 import { Divider } from "@mui/material";
+import MyContacts from "@/components/ui/my-contacts";
 
 const front = [
   {
@@ -235,6 +236,11 @@ export default function Home() {
                 </Card>
               </div>
             </div>
+          </Card>
+        </section>
+        <section id="#mycontacts">
+          <Card className="p-10">
+            <MyContacts/>          
           </Card>
         </section>
       </main>
