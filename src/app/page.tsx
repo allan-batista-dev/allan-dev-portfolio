@@ -4,7 +4,6 @@ import ButtonTheme from "@/components/ui/button-theme";
 import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import MyContacts from "@/components/ui/my-contacts";
-
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
@@ -12,14 +11,11 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { Divider } from "@mui/material";
-
 import brain from '../../public/brain.png'
 import my from '../../public/allan.jpeg'
 import seo from '../../public/seo.png'
 import Image from "next/image"
 import { front, back, devops } from '../lib/stacks';
-import Loading from "./loading";
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import MyHistory from "@/app/my-components/my-history";
@@ -213,7 +209,7 @@ export default function Home() {
             </div>
           </Card>
         </section>
-        <section id="#mycontacts">
+        <section className="mb-10">
           <Card className="p-10">
             <MyContacts />
           </Card>
