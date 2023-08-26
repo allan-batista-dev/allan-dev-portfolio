@@ -20,6 +20,8 @@ import Image from "next/image"
 import { front, back, devops } from '../lib/stacks';
 import Loading from "./loading";
 import { useEffect, useState } from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -151,12 +153,12 @@ export default function Home() {
               <h4 className=" mb-10 text-3xl font-extrabold">
                 "If you're not on the first page of Google,<br /> you don't exist."
               </h4>
-              <p className="text-muted-foreground ml-auto mr-auto w-1/2">
+              <p className="text-muted-foreground ml-auto mr-auto w-auto sm:w-1/2">
                 With a solid and dedicated professional journey, I am proud to share my proven ability to significantly boost the ranking and performance of projects, websites, and online businesses. My passion for optimization and excellence has led me to achieve exceptional results over the years.
               </p>
             </div>
-            <div className=" flex justify-center items-center gap-4">
-              <div >
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+              <div>
                 <Image
                   src={seo}
                   alt="seo-perform"
@@ -165,7 +167,7 @@ export default function Home() {
                 />
                 <p className="text-lg font-bold mt-2 text-center">Performance</p>
               </div>
-              <div >
+              <div>
                 <Image
                   src={seo}
                   alt="seo-perform"
@@ -174,7 +176,7 @@ export default function Home() {
                 />
                 <p className="text-lg font-bold mt-2 text-center">Accessibility</p>
               </div>
-              <div >
+              <div>
                 <Image
                   src={seo}
                   alt="seo-perform"
@@ -183,7 +185,7 @@ export default function Home() {
                 />
                 <p className="text-lg font-bold mt-2 text-center">Best Practices</p>
               </div>
-              <div >
+              <div>
                 <Image
                   src={seo}
                   alt="seo-perform"
@@ -193,9 +195,13 @@ export default function Home() {
                 <p className="text-lg font-bold mt-2 text-center">SEO</p>
               </div>
             </div>
-            <p className="text-muted-foreground ml-auto mr-auto w-1/2">
-              Be yourself
-            </p>
+            <div className="text-center my-10">
+              <Button variant="outline">
+                <Link rel="noopener noreferrer" target="_blank" href="https://pagespeed.web.dev/analysis/https-allan-dev-portfolio-vercel-app/2mibahwiw7?form_factor=mobile">
+                  Take the test yourself!
+                </Link>
+              </Button>
+            </div>
           </Card>
         </section>
         <section id="#mycontacts">
