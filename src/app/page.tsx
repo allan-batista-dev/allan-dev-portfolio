@@ -22,6 +22,7 @@ import Loading from "./loading";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import MyHistory from "@/app/my-components/my-history";
 
 export default function Home() {
   return (
@@ -55,6 +56,14 @@ export default function Home() {
                 I am driven by a strong desire to contribute to the ever-evolving world of web development, and I am eager to take on new challenges and create exceptional digital experiences. Let's work together to bring your web projects to life and make a lasting impact in the digital realm.
               </p>
             </Card>
+          </Card>
+        </section>
+        <section className="my-10">
+          <Card className="p-10">
+            <h4 className=" mb-10 text-3xl font-extrabold text-center">
+              From the beginning until today of<br /> my career in technology
+            </h4>
+            <MyHistory />
           </Card>
         </section>
         <section className="card my-10">

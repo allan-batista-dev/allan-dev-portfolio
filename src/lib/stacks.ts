@@ -75,7 +75,13 @@ export const back = [
         name: 'Postgresql',
     },
     {
+        name: 'Firebase',
+    },
+    {
         name: 'PrismaORM',
+    },
+    {
+        name: 'Doctrine'
     },
     {
         name: 'Jest',
