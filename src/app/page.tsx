@@ -193,6 +193,9 @@ export default function Home() {
                 <p className="text-lg font-bold mt-2 text-center">SEO</p>
               </div>
             </div>
+            <p className="text-muted-foreground ml-auto mr-auto w-1/2">
+              Be yourself
+            </p>
           </Card>
         </section>
         <section id="#mycontacts">
@@ -200,7 +203,7 @@ export default function Home() {
             <MyContacts />
           </Card>
         </section>
-      </main>
+      </main >
     </>
   )
 }
