@@ -41,15 +41,17 @@ export default function Home() {
               />
             </div>
             <h1 className="text-center mb-10 text-3xl font-extrabold">
-              Hello! My name is Allan
+              Olá! meu nome é Allan Batista
             </h1>
             <Card >
               <p className="p-5 text-justify text-muted-foreground">
-                I am a highly skilled Full-stack Developer with four years of extensive experience in crafting cutting-edge web applications. My passion for web development is matched only by my enthusiasm for making a meaningful impact through technology. I possess a robust skill set that encompasses both front-end and back-end development, allowing me to create seamless, user-friendly web experiences.
-                Throughout my career, I have had the privilege of working on a diverse range of projects, from e-commerce platforms to content management systems and everything in between. My commitment to staying up-to-date with the latest industry trends and technologies ensures that I can deliver solutions that are not only functional but also innovative. <br />
+                Sou um Desenvolvedor Full-stack altamente qualificado, com quatro anos de ampla experiência na criação de aplicações web inovadoras. Minha paixão pelo desenvolvimento web só se iguala ao meu entusiasmo em causar um impacto significativo por meio da tecnologia. Possuo um conjunto sólido de habilidades que abrange tanto o front-end quanto o back-end, permitindo-me criar experiências digitais fluidas e fáceis de usar.
 
-                I thrive in collaborative environments and take pride in my ability to communicate effectively with cross-functional teams, turning ideas into reality. My dedication to clean code practices, performance optimization, and a user-centered approach is evident in the quality of my work.
-                I am driven by a strong desire to contribute to the ever-evolving world of web development, and I am eager to take on new challenges and create exceptional digital experiences. Let's work together to bring your web projects to life and make a lasting impact in the digital realm.
+                Ao longo da minha carreira, tive o privilégio de trabalhar em uma ampla variedade de projetos, desde plataformas de e-commerce até sistemas de gerenciamento de conteúdo e muito mais. Meu compromisso em me manter atualizado com as últimas tendências e tecnologias do setor garante que eu possa entregar soluções não apenas funcionais, mas também inovadoras.
+
+                Destaco-me em ambientes colaborativos e me orgulho da minha capacidade de me comunicar de forma eficaz com equipes multifuncionais, transformando ideias em realidade. Minha dedicação a práticas de código limpo, otimização de desempenho e uma abordagem centrada no usuário fica evidente na qualidade do meu trabalho.
+
+                Sou movido por um forte desejo de contribuir para o mundo em constante evolução do desenvolvimento web e estou sempre disposto a enfrentar novos desafios e criar experiências digitais excepcionais. Vamos trabalhar juntos para dar vida aos seus projetos web e gerar um impacto duradouro no universo digital
               </p>
             </Card>
           </Card>
@@ -57,7 +59,7 @@ export default function Home() {
         <section className="my-10">
           <Card className="p-10">
             <h4 className=" mb-10 text-3xl font-extrabold text-center">
-              From the beginning until today of<br /> my career in technology
+              Do início até hoje da minha carreira em tecnologia
             </h4>
             <MyHistory />
           </Card>
@@ -65,7 +67,7 @@ export default function Home() {
         <section className="card my-10">
           <Card className="p-10">
             <h2 className="text-center mb-10 text-3xl font-extrabold">
-              Experience<br /> to create scalable applications.
+              Experiência<br /> desenvolver aplicações escaláveis ✅
             </h2>
             <Card className="mx-5">
               <Skeleton>
@@ -156,10 +158,10 @@ export default function Home() {
           <Card className="p-10">
             <div className="text-center mb-10">
               <h4 className=" mb-10 text-3xl font-extrabold">
-                "If you're not on the first page of Google,<br /> you don't exist."
+                "Se você não está na primeira página do Google, você não existe."
               </h4>
               <p className="text-muted-foreground ml-auto mr-auto w-auto sm:w-1/2">
-                With a solid and dedicated professional journey, I am proud to share my proven ability to significantly boost the ranking and performance of projects, websites, and online businesses. My passion for optimization and excellence has led me to achieve exceptional results over the years.
+                Profissional com trajetória sólida e dedicada, capaz de melhorar significativamente o desempenho e ranking de projetos, sites e negócios online, com foco em otimização e excelência.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
@@ -200,13 +202,13 @@ export default function Home() {
                 <p className="text-lg font-bold mt-2 text-center">SEO</p>
               </div>
             </div>
-            <div className="text-center my-10">
+            {/* <div className="text-center my-10">
               <Button variant="outline">
                 <Link rel="noopener noreferrer" target="_blank" href="https://pagespeed.web.dev/analysis/https-allan-dev-portfolio-vercel-app/2mibahwiw7?form_factor=mobile">
                   Take the test yourself!
                 </Link>
               </Button>
-            </div>
+            </div> */}
           </Card>
         </section>
         <section className="mb-10">

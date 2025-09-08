@@ -48,7 +48,7 @@ export default function MyContacts() {
     return (
         <>
             <h2 className="text-center mb-10 text-3xl font-extrabold">
-                My contacts.
+                Meus contatos
             </h2>
             <div className="flex items-center justify-center gap-6">
                 <div>

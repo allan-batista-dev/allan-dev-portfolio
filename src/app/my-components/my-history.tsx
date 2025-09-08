@@ -24,61 +24,61 @@ export default function MyHistory() {
                 >
                     <TimelineItem>
                         <TimelineOppositeContent className="text-muted-foreground">
-                            At the moment
+                            No atual momento
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent className="text-muted-foreground">
-                            Following my experience at Vivaweb, I decided to pursue a more flexible career as a freelancer and digital nomad.
-                            This allowed me to explore new challenges in technology, working on diverse projects and expanding my knowledge in various areas.
-                            My journey as an independent professional provided me with the opportunity
-                            to collaborate with clients from different industries and cultures, broadening my expertise in web and mobile development.<br />
-                            I am always seeking new challenges and opportunities to enhance my skills and contribute to
-                            innovative projects in the technology field.
+                            Atualmente
+                            Após minha experiência na Vivaweb, optei por atuar como freelancer e nômade digital, conquistando maior flexibilidade de carreira. Nesse período, participei de projetos diversificados em tecnologia, ampliando meus conhecimentos em desenvolvimento web e mobile. Essa trajetória me possibilitou colaborar com clientes de diferentes setores e culturas, fortalecendo minha capacidade de adaptação e entregando soluções personalizadas e inovadoras.
+
+                            Sempre em busca de novos desafios, mantenho o foco no aprimoramento contínuo das minhas habilidades e na contribuição para projetos de impacto no campo da tecnologia.
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent className="text-muted-foreground">
-                            Company: Vivaweb
-                            Position: Web & Mobile Developer
-                            Period: 01/2020 - 06/2022 (2 years and 5 months)
+                            Empresa: Vivaweb
+                            Cargo: Desenvolvedor Web & Mobile
+                            Período: 01/2020 - 06/2022 (2 anos e 5 meses)
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent className="text-muted-foreground">
-                            In January 2020, I had the honor of being selected to participate in Vivaweb's recruitment program,
-                            an intensive internship designed for individuals starting their careers in development. During the first six months, along with seven other talented participants, I underwent a rigorous programming-focused training program, where the competition was fierce,
-                            culminating in the selection of the best performers. With dedication and determination, I was
-                            recognized as the participant with the highest performance and
-                            commitment, earning a permanent position at the company in June 2020.<br />
-                            Since then, I have been serving as a Web & Mobile Developer at Vivaweb,
-                            actively contributing to innovative projects in the web and mobile development domains.
-                            My responsibilities include developing user-focused applications and websites,
+                            Selecionado em janeiro de 2020 para o programa de recrutamento intensivo da empresa.
+
+                            Reconhecido como melhor desempenho do programa, conquistando posição efetiva em junho de 2020.
+
+                            Atuação no desenvolvimento de aplicações e sites focados na experiência do usuário.
+
+                            Contribuição em projetos inovadores de web e mobile, aplicando tecnologias de ponta.
+
+                            Responsável por garantir a entrega de soluções de alta qualidade e aprimoramento contínuo das habilidades técnicas.
                             enhancing my skills in cutting-edge technologies, and ensuring the delivery of high-quality solutions.
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent className="text-muted-foreground">
-                            Company: Unimed Maringá
-                            Position: Infrastructure Intern
-                            Period: 12/2016 - 12/2018 (2 years)
+                            Empresa: Unimed Maringá
+                            Cargo: Estagiário de Infraestrutura
+                            Período: 12/2016 – 12/2018 (2 anos)
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot />
                         </TimelineSeparator>
                         <TimelineContent className="text-muted-foreground">
-                            During my tenure as an Infrastructure intern at Unimed Maringá, I had the opportunity
-                            to immerse myself in the field of information technology. My responsibilities included first-level support,
-                            providing technical assistance through remote and on-site support
-                            for both cooperators and employees, addressing issues related to hardware, software, telephony, and systems.<br />
-                            Additionally, I actively participated in server and network administration, including user creation,
-                            Exchange distribution group management, and data center monitoring.
-                            I was also involved in infrastructure projects, where I gained a
-                            systemic view to identify issues and propose effective improvements.
+                            Prestação de suporte de primeiro nível (remoto e presencial) para cooperados e colaboradores.
+
+                            Atendimento a demandas de hardware, software, telefonia e sistemas.
+
+                            Atuação na administração de servidores e redes, incluindo criação de usuários e gerenciamento de grupos no Exchange.
+
+                            Responsável pelo monitoramento do data center.
+
+                            Participação em projetos de infraestrutura, desenvolvendo visão sistêmica para identificação de problemas e proposição de melhorias.
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>
